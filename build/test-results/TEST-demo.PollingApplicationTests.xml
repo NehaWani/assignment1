@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.PollingApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-03-07T02:28:15" hostname="neha-PC" time="0.005">
+  <properties/>
+  <testcase name="contextLoads" classname="demo.PollingApplicationTests" time="0.005"/>
+  <system-out><![CDATA[18:28:12.489 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class demo.PollingApplicationTests].
+18:28:12.531 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+18:28:12.563 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@dc4734b declaringClass = 'demo.PollingApplicationTests', classes = '{class demo.PollingApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+18:28:12.581 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [demo.PollingApplicationTests]
+18:28:12.589 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [demo.PollingApplicationTests]: using defaults.
+18:28:12.609 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:28:12.648 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3bd193c9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3c3d8fcd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6dabfaa0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@35d356a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@45dc3dfb]
+18:28:12.651 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.PollingApplicationTests]
+18:28:12.653 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.PollingApplicationTests]
+18:28:12.659 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.PollingApplicationTests]
+18:28:12.659 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.PollingApplicationTests]
+18:28:12.661 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.PollingApplicationTests]
+18:28:12.662 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.PollingApplicationTests]
+18:28:12.667 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.PollingApplicationTests]
+18:28:12.668 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.PollingApplicationTests]
+18:28:12.676 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@3e79ad3f testClass = PollingApplicationTests, testInstance = demo.PollingApplicationTests@265d2324, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2cae2429 testClass = PollingApplicationTests, locations = '{}', classes = '{class demo.PollingApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+18:28:12.842 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:28:12.846 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:28:12.846 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:28:12.849 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.2.RELEASE)
+
+2015-03-06 18:28:13.277  INFO 4956 --- [    Test worker] o.s.boot.SpringApplication               : Starting application on neha-PC with PID 4956 (C:\Users\neh\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\1.2.2.RELEASE\c2495d6c08c742743366f50e25ad76f5dfcd9f75\spring-boot-1.2.2.RELEASE.jar started by neh in C:\Neha\VidyaGhar\Workspace1\PollingApplication)
+2015-03-06 18:28:13.347  INFO 4956 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@58c9fe14: startup date [Fri Mar 06 18:28:13 PST 2015]; root of context hierarchy
+2015-03-06 18:28:15.192  INFO 4956 --- [    Test worker] o.s.boot.SpringApplication               : Started application in 2.337 seconds (JVM running for 3.845)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
